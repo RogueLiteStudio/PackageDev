@@ -1,0 +1,3 @@
+[submodule "Packages/FlowScript"]
+	path = Packages/FlowScript
+	url = https://github.com/RogueLiteStudio/FlowScript.git

@@ -12,164 +12,104 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d022d7876cb0c04099af53484b5df70, type: 3}
   m_Name: TestGraph
   m_EditorClassIdentifier: 
-  Nodes:
-  - GUID: d68b0322-1303-448b-927c-ceec95723370
-    Name: Entry
-    Comment: 
-    jsonData:
-      Type: TestEntry
-      TypeGUID: a2524960-2d91-4678-8112-635cbf627153
-      JsonDatas: '{}'
-  - GUID: 9f5d5d45-d589-4392-92dc-91400c999c62
-    Name: TestCondition
-    Comment: 
-    jsonData:
-      Type: TestCondition
-      TypeGUID: ecff7928-9d5c-432b-9ee9-b9ceda438460
-      JsonDatas: '{}'
-  - GUID: 11b41a1d-0414-4fc2-8470-e9f9f1e6654f
-    Name: TestCondition
-    Comment: 
-    jsonData:
-      Type: TestCondition
-      TypeGUID: ecff7928-9d5c-432b-9ee9-b9ceda438460
-      JsonDatas: '{}'
-  - GUID: e71da458-aa95-48d5-a266-ebc6c38fac45
-    Name: TestStage
-    Comment: 
-    jsonData:
-      Type: TestStage
-      TypeGUID: 645d03d5-d098-4507-b19c-a85d5b953823
-      JsonDatas: '{}'
-  - GUID: 3aa4b89e-b8c1-4eaf-919d-c77b0ed2b230
-    Name: TestAction
-    Comment: 
-    jsonData:
-      Type: TestAction
-      TypeGUID: 95ee26ac-acec-4a08-8e6b-6882703b6040
-      JsonDatas: '{}'
-  - GUID: 4307d0d4-43b0-4464-a46a-e457d9020ac0
-    Name: TestStack
-    Comment: 
-    jsonData:
-      Type: TestStack
-      TypeGUID: e438ee94-0e48-404f-91d9-70bd4b27422b
-      JsonDatas: '{}'
-  - GUID: 4af8994a-a640-403c-b5d0-1c23e0b2ba2c
-    Name: TestCondition
-    Comment: 
-    jsonData:
-      Type: TestCondition
-      TypeGUID: ecff7928-9d5c-432b-9ee9-b9ceda438460
-      JsonDatas: '{}'
-  - GUID: 34b56855-2002-4cab-8a1b-1b0ac7257f28
-    Name: TestAction
-    Comment: 
-    jsonData:
-      Type: TestAction
-      TypeGUID: 95ee26ac-acec-4a08-8e6b-6882703b6040
-      JsonDatas: '{}'
-  - GUID: cdce7675-9d8d-460c-ae92-48e214693c1d
-    Name: TestStage
-    Comment: 
-    jsonData:
-      Type: TestStage
-      TypeGUID: 645d03d5-d098-4507-b19c-a85d5b953823
-      JsonDatas: '{}'
-  - GUID: c486f81b-2407-42a7-8ddc-bcd3af436240
-    Name: TestStack
-    Comment: 
-    jsonData:
-      Type: TestStack
-      TypeGUID: e438ee94-0e48-404f-91d9-70bd4b27422b
-      JsonDatas: '{}'
-  - GUID: c5b35aea-cd6f-44ec-806c-ec17c8c11507
-    Name: TestAction
-    Comment: 
-    jsonData:
-      Type: TestAction
-      TypeGUID: 95ee26ac-acec-4a08-8e6b-6882703b6040
-      JsonDatas: '{}'
-  - GUID: f687a677-b4ee-400a-9bc7-bbc8efa20102
-    Name: TestStack
-    Comment: 
-    jsonData:
-      Type: TestStack
-      TypeGUID: e438ee94-0e48-404f-91d9-70bd4b27422b
-      JsonDatas: '{}'
   SubGraphs:
   - Owner: {fileID: 11400000}
-    GUID: 01a2c179-2f24-47f1-919f-41ab47ccff0c
+    GUID: f862ef5e-5c6b-4684-836b-df90e0876b2f
+    ParentGUID: 
+    BindNodeGUID: 
     Name: 
     AllowStageNode: 1
-    Position: {x: 0, y: 124, z: 0}
+    Position: {x: 58, y: 76, z: 0}
     Scale: {x: 1, y: 1, z: 1}
     Nodes:
-    - nodeGUID: d68b0322-1303-448b-927c-ceec95723370
-      graph: {fileID: 11400000}
-    - nodeGUID: 34b56855-2002-4cab-8a1b-1b0ac7257f28
-      graph: {fileID: 11400000}
-    - nodeGUID: cdce7675-9d8d-460c-ae92-48e214693c1d
-      graph: {fileID: 11400000}
-    - nodeGUID: c486f81b-2407-42a7-8ddc-bcd3af436240
-      graph: {fileID: 11400000}
-    - nodeGUID: c5b35aea-cd6f-44ec-806c-ec17c8c11507
-      graph: {fileID: 11400000}
-    NodeViews:
-    - NodeGUID: d68b0322-1303-448b-927c-ceec95723370
+    - GUID: 96099834-237b-4942-81b0-692f86e00bb8
+      Name: Entry
+      Comment: 
       Position:
         serializedVersion: 2
-        x: 141.35
-        y: 65.99999
+        x: 93
+        y: 54
         width: 72
         height: 77
       Expanded: 1
-    - NodeGUID: 34b56855-2002-4cab-8a1b-1b0ac7257f28
+      jsonData:
+        Type: TestEntry
+        TypeGUID: a2524960-2d91-4678-8112-635cbf627153
+        JsonDatas: '{}'
+    - GUID: cf072b90-58f1-4816-99ed-6498601871d8
+      Name: TestAction
+      Comment: 
       Position:
         serializedVersion: 2
-        x: 329
-        y: 166
+        x: 272
+        y: 274
         width: 104
         height: 77
       Expanded: 1
-    - NodeGUID: cdce7675-9d8d-460c-ae92-48e214693c1d
+      jsonData:
+        Type: TestAction
+        TypeGUID: 95ee26ac-acec-4a08-8e6b-6882703b6040
+        JsonDatas: '{}'
+    - GUID: d6595ea2-74e6-4622-b24a-32fb521085ee
+      Name: TestStack
+      Comment: 
       Position:
         serializedVersion: 2
-        x: 818
-        y: 114.839966
-        width: 101
-        height: 77
-      Expanded: 1
-    - NodeGUID: c486f81b-2407-42a7-8ddc-bcd3af436240
-      Position:
-        serializedVersion: 2
-        x: 452.05002
-        y: 368.55005
+        x: -1.7999878
+        y: 223.99998
         width: 150
         height: 125
       Expanded: 1
-    - NodeGUID: c5b35aea-cd6f-44ec-806c-ec17c8c11507
+      jsonData:
+        Type: TestStack
+        TypeGUID: e438ee94-0e48-404f-91d9-70bd4b27422b
+        JsonDatas: '{}'
+    - GUID: b94d4c73-3c4c-4670-9b7b-fc3aa8db8a41
+      Name: TestCondition
+      Comment: 
       Position:
         serializedVersion: 2
-        x: 489
-        y: 323
-        width: 104
+        x: 252
+        y: 80.499985
+        width: 122
+        height: 101
+      Expanded: 1
+      jsonData:
+        Type: TestCondition
+        TypeGUID: ecff7928-9d5c-432b-9ee9-b9ceda438460
+        JsonDatas: '{}'
+    - GUID: a702fc79-421a-4626-b6f1-816195384663
+      Name: TestStage
+      Comment: 
+      Position:
+        serializedVersion: 2
+        x: 446
+        y: 203
+        width: 101
         height: 77
       Expanded: 1
+      jsonData:
+        Type: TestStage
+        TypeGUID: 645d03d5-d098-4507-b19c-a85d5b953823
+        JsonDatas: '{}'
     Edges:
-    - GUID: 47e1ac7c-ff1e-4d57-b186-b969d15e5700
-      FromeNode: c5b35aea-cd6f-44ec-806c-ec17c8c11507
+    - GUID: 4aa59701-dd6b-4ee1-b07a-8f3a44b137a6
+      FromeNode: 96099834-237b-4942-81b0-692f86e00bb8
       OutPort: 0
-      ToNode: cdce7675-9d8d-460c-ae92-48e214693c1d
+      ToNode: b94d4c73-3c4c-4670-9b7b-fc3aa8db8a41
       InPort: 0
-    - GUID: 7db2277f-d6c4-4c74-9095-d4944d0b669c
-      FromeNode: 34b56855-2002-4cab-8a1b-1b0ac7257f28
+    - GUID: ad699d87-207f-47f7-9d75-a0ec5de65a21
+      FromeNode: b94d4c73-3c4c-4670-9b7b-fc3aa8db8a41
       OutPort: 0
-      ToNode: cdce7675-9d8d-460c-ae92-48e214693c1d
+      ToNode: a702fc79-421a-4626-b6f1-816195384663
+      InPort: 0
+    - GUID: e2801285-0180-4c84-a765-ba2b3f67d749
+      FromeNode: cf072b90-58f1-4816-99ed-6498601871d8
+      OutPort: 0
+      ToNode: a702fc79-421a-4626-b6f1-816195384663
       InPort: 0
     Groups: []
     Stacks:
-    - GUID: c486f81b-2407-42a7-8ddc-bcd3af436240
+    - GUID: d6595ea2-74e6-4622-b24a-32fb521085ee
       Nodes:
-      - c5b35aea-cd6f-44ec-806c-ec17c8c11507
-  GraphBinds: []
+      - cf072b90-58f1-4816-99ed-6498601871d8

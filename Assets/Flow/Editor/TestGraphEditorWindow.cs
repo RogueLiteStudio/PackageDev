@@ -48,7 +48,7 @@ public class TestGraphEditorWindow : EditorWindow
         if (graph == null)
         {
             graph = CreateInstance<TestGraph>();
-            var subGraph = GraphCreateUtil.CreateSubGraph(graph, true);
+            var subGraph = GraphCreateUtil.CreateSubGraph(graph, true, null, null);
             var entry = new TestEntry();
             GraphCreateUtil.CreateNode(subGraph, entry, new Rect(Vector2.zero, new Vector2(100, 100)));
             AssetDatabase.CreateAsset(graph, path);

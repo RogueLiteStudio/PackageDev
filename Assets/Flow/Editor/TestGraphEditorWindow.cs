@@ -15,6 +15,12 @@ public class TestGraphEditorWindow : EditorWindow
         {
             graphEditor.RefreshView();
         }
+        Undo.undoRedoPerformed += OnUndoRedo;
+    }
+
+    private void OnDisable()
+    {
+        Undo.undoRedoPerformed -= OnUndoRedo;
     }
 
     private void OnDestroy()
@@ -23,6 +29,14 @@ public class TestGraphEditorWindow : EditorWindow
         {
             DestroyImmediate(graphEditor);
             graphEditor = null;
+        }
+    }
+
+    private void OnUndoRedo()
+    {
+        if (graphEditor)
+        {
+            graphEditor.RefreshView();
         }
     }
 

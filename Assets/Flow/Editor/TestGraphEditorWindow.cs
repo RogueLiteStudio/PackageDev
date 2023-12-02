@@ -1,44 +1,10 @@
+using Flow;
 using UnityEditor;
 using UnityEngine;
-using Flow;
-using UnityEngine.UIElements;
 
 [EditorWindowTitle(title = "Test Graph Editor")]
-public class TestGraphEditorWindow : EditorWindow
+public class TestGraphEditorWindow : TFlowGraphWindow<TestGraph>
 {
-    public FlowGraphEditor graphEditor;
-    public TestGraph graph;
-
-    private void OnEnable()
-    {
-        if (graphEditor)
-        {
-            graphEditor.RefreshView();
-        }
-        Undo.undoRedoPerformed += OnUndoRedo;
-    }
-
-    private void OnDisable()
-    {
-        Undo.undoRedoPerformed -= OnUndoRedo;
-    }
-
-    private void OnDestroy()
-    {
-        if (graphEditor != null)
-        {
-            DestroyImmediate(graphEditor);
-            graphEditor = null;
-        }
-    }
-
-    private void OnUndoRedo()
-    {
-        if (graphEditor)
-        {
-            graphEditor.RefreshView();
-        }
-    }
 
     [MenuItem("Tools/创建Graph")]
     static void CreateGarap()
@@ -54,11 +20,6 @@ public class TestGraphEditorWindow : EditorWindow
             AssetDatabase.CreateAsset(graph, path);
             AssetDatabase.SaveAssets();
         }
-        var window = GetWindow<TestGraphEditorWindow>();
-        window.graph = graph;
-        window.graphEditor = CreateInstance<FlowGraphEditor>();
-        window.graphEditor.Graph = graph.SubGraphs[0];
-        window.graphEditor.window = window;
-        window.graphEditor.RefreshView();
+        OpenGraph(graph);
     }
 }

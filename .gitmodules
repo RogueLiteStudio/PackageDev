@@ -17,8 +17,8 @@
 	path = Packages/PropertyEditor
 	url = https://github.com/RogueLiteStudio/Package.PropertyEditor.git
 [submodule "Packages/EasyConfig"]
-	path = Packages/PropertyEditor
-	url = https://github.com/RogueLiteStudio/Package.PropertyEditor.git
-[submodule "Packages/EasyConfig"]
+	path = Packages/EasyConfig
+	url = https://github.com/RogueLiteStudio/Package.EasyConfig.git
+[submodule "Packages/FrameLine"]
 	path = Packages/FrameLine
 	url = https://github.com/RogueLiteStudio/Package.FrameLine.git

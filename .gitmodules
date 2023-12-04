@@ -4,3 +4,21 @@
 [submodule "Packages/Serialization"]
 	path = Packages/Serialization
 	url = https://github.com/RogueLiteStudio/Package.Serialization.git
+[submodule "Packages/ECS"]
+	path = Packages/ECS
+	url = https://github.com/RogueLiteStudio/Package.ECS.git
+[submodule "Packages/CodeGen"]
+	path = Packages/CodeGen
+	url = https://github.com/RogueLiteStudio/Package.CodeGen.git
+[submodule "Packages/SDFNav"]
+	path = Packages/SDFNav
+	url = https://github.com/RogueLiteStudio/Package.SDFNav.git
+[submodule "Packages/PropertyEditor"]
+	path = Packages/PropertyEditor
+	url = https://github.com/RogueLiteStudio/Package.PropertyEditor.git
+[submodule "Packages/EasyConfig"]
+	path = Packages/PropertyEditor
+	url = https://github.com/RogueLiteStudio/Package.PropertyEditor.git
+[submodule "Packages/EasyConfig"]
+	path = Packages/FrameLine
+	url = https://github.com/RogueLiteStudio/Package.FrameLine.git

@@ -1,6 +1,6 @@
 [submodule "Packages/FlowScript"]
 	path = Packages/FlowScript
-	url = https://github.com/RogueLiteStudio/FlowScript.git
+	url = https://github.com/RogueLiteStudio/Package.FlowScript.git
 [submodule "Packages/Serialization"]
 	path = Packages/Serialization
-	url = https://github.com/RogueLiteStudio/Serialization.git
+	url = https://github.com/RogueLiteStudio/Package.Serialization.git

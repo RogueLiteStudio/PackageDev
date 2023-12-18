@@ -6,6 +6,11 @@ public class TestGraphProcess : IFlowGraphProcess
 {
     public Type EditorWindowType => typeof(TestGraphEditorWindow);
 
+    public bool CheckIsValidNodeType(Type type)
+    {
+        return type.IsSubclassOf(typeof(TestNodeBase));
+    }
+
     public FlowGraph OnCreateAction()
     {
         return null;

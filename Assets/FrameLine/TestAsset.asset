@@ -29,28 +29,8 @@ MonoBehaviour:
         Type: TestEffect
         TypeGUID: 68121115-ea12-4ba1-9a83-bb0b9d32beff
         JsonDatas: '{}'
-    - GUID: 8adf4e19-cbba-421e-b21b-1d089e327f1c
-      StartFrame: 5
-      Length: 7
-      Enable: 1
-      Name: TestEffect
-      Comment: 
-      jsonData:
-        Type: TestEffect
-        TypeGUID: 68121115-ea12-4ba1-9a83-bb0b9d32beff
-        JsonDatas: '{}'
-    - GUID: 3a06c43b-f4a2-4e30-9118-de408f9d2891
-      StartFrame: 12
-      Length: 8
-      Enable: 1
-      Name: TestEffect
-      Comment: 
-      jsonData:
-        Type: TestEffect
-        TypeGUID: 68121115-ea12-4ba1-9a83-bb0b9d32beff
-        JsonDatas: '{}'
     - GUID: 20cf2525-c795-4486-b0f3-1e0a6254486a
-      StartFrame: 7
+      StartFrame: 5
       Length: 17
       Enable: 1
       Name: TestAudio
@@ -59,18 +39,8 @@ MonoBehaviour:
         Type: TestAudio
         TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
         JsonDatas: '{}'
-    - GUID: 7d333a36-72b7-4067-8aeb-04fe9092f1b1
-      StartFrame: 3
-      Length: 7
-      Enable: 1
-      Name: TestAudio
-      Comment: 
-      jsonData:
-        Type: TestAudio
-        TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
-        JsonDatas: '{}'
     - GUID: 0bd12a67-bf37-484e-827c-6c11989dbf8c
-      StartFrame: 5
+      StartFrame: 7
       Length: 10
       Enable: 1
       Name: TestAudio
@@ -78,4 +48,34 @@ MonoBehaviour:
       jsonData:
         Type: TestAudio
         TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
+        JsonDatas: '{}'
+    - GUID: fd50cb56-f114-458f-888d-280a77a6182c
+      StartFrame: 41
+      Length: 1
+      Enable: 1
+      Name: TestAudio
+      Comment: 
+      jsonData:
+        Type: TestAudio
+        TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
+        JsonDatas: '{}'
+    - GUID: ee83a5a6-8727-4941-969b-5e37ec8cff2a
+      StartFrame: 0
+      Length: 1
+      Enable: 1
+      Name: TestAudio
+      Comment: 
+      jsonData:
+        Type: TestAudio
+        TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
+        JsonDatas: '{}'
+    - GUID: e5cbb294-e595-4928-8fa3-dbbee17dca51
+      StartFrame: 68
+      Length: 1
+      Enable: 1
+      Name: TestEffect
+      Comment: 
+      jsonData:
+        Type: TestEffect
+        TypeGUID: 68121115-ea12-4ba1-9a83-bb0b9d32beff
         JsonDatas: '{}'

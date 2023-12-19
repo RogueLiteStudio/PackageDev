@@ -20,7 +20,7 @@ MonoBehaviour:
     FrameCount: 100
     Actions:
     - GUID: 1a16ce31-d77b-49f3-915f-9fd7184a9896
-      StartFrame: 0
+      StartFrame: 16
       Length: 5
       Enable: 1
       Name: TestEffect
@@ -40,7 +40,7 @@ MonoBehaviour:
         TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
         JsonDatas: '{}'
     - GUID: 0bd12a67-bf37-484e-827c-6c11989dbf8c
-      StartFrame: 7
+      StartFrame: 14
       Length: 10
       Enable: 1
       Name: TestAudio
@@ -50,7 +50,7 @@ MonoBehaviour:
         TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
         JsonDatas: '{}'
     - GUID: fd50cb56-f114-458f-888d-280a77a6182c
-      StartFrame: 41
+      StartFrame: 14
       Length: 1
       Enable: 1
       Name: TestAudio
@@ -70,10 +70,20 @@ MonoBehaviour:
         TypeGUID: 024a7849-54b1-41f8-b037-2022d56600a0
         JsonDatas: '{}'
     - GUID: e5cbb294-e595-4928-8fa3-dbbee17dca51
-      StartFrame: 68
-      Length: 1
+      StartFrame: 12
+      Length: 26
       Enable: 1
       Name: TestEffect
+      Comment: 
+      jsonData:
+        Type: TestEffect
+        TypeGUID: 68121115-ea12-4ba1-9a83-bb0b9d32beff
+        JsonDatas: '{}'
+    - GUID: 4b47c7c7-5e89-4102-9271-17c4fc84b90a
+      StartFrame: 2
+      Length: 4
+      Enable: 1
+      Name: "\u7279\u6548"
       Comment: 
       jsonData:
         Type: TestEffect

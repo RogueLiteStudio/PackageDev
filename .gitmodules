@@ -22,3 +22,6 @@
 [submodule "Packages/FrameLine"]
 	path = Packages/FrameLine
 	url = https://github.com/RogueLiteStudio/Package.FrameLine.git
+[submodule "Packages/ShapeCollider"]
+	path = Packages/ShapeCollider
+	url = https://github.com/RogueLiteStudio/Package.ShapeCollider.git

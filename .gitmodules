@@ -25,3 +25,6 @@
 [submodule "Packages/ShapeCollider"]
 	path = Packages/ShapeCollider
 	url = https://github.com/RogueLiteStudio/Package.ShapeCollider.git
+[submodule "Packages/Common"]
+	path = Packages/Common
+	url = https://github.com/RogueLiteStudio/Package.Common.git

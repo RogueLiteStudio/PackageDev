@@ -19,3 +19,6 @@
 [submodule "Packages/Common"]
 	path = Packages/Common
 	url = https://github.com/RogueLiteStudio/Package.Common.git
+[submodule "Packages/NamedAsset"]
+	path = Packages/NamedAsset
+	url = https://github.com/RogueLiteStudio/Package.NamedAsset.git

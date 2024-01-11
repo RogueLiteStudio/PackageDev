@@ -22,6 +22,3 @@
 [submodule "Packages/NamedAsset"]
 	path = Packages/NamedAsset
 	url = https://github.com/RogueLiteStudio/Package.NamedAsset.git
-[submodule "Package.Animatic"]
-	path = Package.Animatic
-	url = https://github.com/RogueLiteStudio/Package.Animatic.git

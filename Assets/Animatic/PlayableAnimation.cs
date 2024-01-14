@@ -10,6 +10,7 @@ public class BlendPlayable : PlayableBehaviour
         Animation.FrameDataSpeed = info.effectiveSpeed;
         Animation.FrameFrame = info.frameId;
         Animation.State = info.effectivePlayState;
+        Animation.OnPrepareFrame();
     }
 }
 
@@ -28,6 +29,7 @@ public class PlayableAnimation : MonoBehaviour
     private PlayableGraph playableGraph;
 
     public float Speed = 1;
+    public float ClipSpeed = 1;
 
     [Range(0, 1)]
     public float BlendNormalizedTime = 0.2f;
@@ -46,6 +48,8 @@ public class PlayableAnimation : MonoBehaviour
     [Header("Debug")]
     public float FrameDataSpeed;
     public ulong FrameFrame;
+    public float PrepareFrameTime;
+    public float ClipTime;
     public PlayState State;
 
     private void Start()
@@ -59,6 +63,7 @@ public class PlayableAnimation : MonoBehaviour
             for (int i = 0; i < clips.Length; i++)
             {
                 animationClipPlayables[i] = AnimationClipPlayable.Create(playableGraph, clips[i]);
+                //animationClipPlayables[i].SetDuration(clips[i].length);
             }
             var playableOutput = AnimationPlayableOutput.Create(playableGraph, "Animation", animator);
             int count = clips.Length;
@@ -139,6 +144,13 @@ public class PlayableAnimation : MonoBehaviour
             }
         }
         mixerPlayable.SetSpeed(Speed);
+        animationClipPlayables[index].SetSpeed(ClipSpeed);
+        ClipTime = (float)animationClipPlayables[index].GetTime();
+    }
+
+    public void OnPrepareFrame()
+    {
+        PrepareFrameTime = (float)animationClipPlayables[index].GetTime();
     }
 
     private void OnDestroy()

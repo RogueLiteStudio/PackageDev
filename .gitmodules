@@ -25,3 +25,6 @@
 [submodule "Packages/Animatic"]
 	path = Packages/Animatic
 	url = https://github.com/RogueLiteStudio/Package.Animatic.git
+[submodule "Packages/TimelineView"]
+	path = Packages/TimelineView
+	url = https://github.com/RogueLiteStudio/Package.TimelineView.git

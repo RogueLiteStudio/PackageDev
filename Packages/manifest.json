@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.greenbamboogames.playablegraphmonitor": "https://github.com/SolarianZ/UnityPlayableGraphMonitorTool.git",
     "com.unity.burst": "1.8.9",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.collections": "1.4.0",

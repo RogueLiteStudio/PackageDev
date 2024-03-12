@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b700ca163e209644a8418edda9a3b9b9, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  States:
+  - Name: attack_03
+    GUID: a30f0eca-2c65-4870-82fb-e52000171609
+    Loop: 0
+    Animation: {fileID: 1827226128182048838, guid: 5a64a3a605502894bbbdd4658e4ab0f2, type: 3}
+    Clips:
+    - StartFrame: 0
+      FrameCount: 49
+      Speed: 1
+  - Name: attack_02
+    GUID: a43d0dae-c52b-4791-a139-98c47acae606
+    Loop: 0
+    Animation: {fileID: 1827226128182048838, guid: ce6e012350f76934bb21ed9eb33d40f8, type: 3}
+    Clips: []
+  BlendTree:
+  - Name: blendTree
+    GUID: 18371f15-3d21-4c6d-8a31-c73d31818b0f
+    Loop: 0
+    Motions:
+    - Clip: {fileID: 1827226128182048838, guid: 9f0dca927a6e0e849acc3fea451739ec, type: 3}
+      Threshold: 0
+    - Clip: {fileID: 1827226128182048838, guid: 5a64a3a605502894bbbdd4658e4ab0f2, type: 3}
+      Threshold: 0
+  Transition: []

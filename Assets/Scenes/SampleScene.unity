@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -123,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &79733036
+--- !u!1001 &311384873
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -175,49 +171,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6662632845806163698, guid: ce871f6886b475a4d9980eb19f724cae, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 134423259179243058, guid: ce871f6886b475a4d9980eb19f724cae, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 79733038}
+      addedObject: {fileID: 957421297}
   m_SourcePrefab: {fileID: 100100000, guid: ce871f6886b475a4d9980eb19f724cae, type: 3}
---- !u!1 &79733037 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 134423259179243058, guid: ce871f6886b475a4d9980eb19f724cae, type: 3}
-  m_PrefabInstance: {fileID: 79733036}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &79733038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79733037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf1201011c2f6624d8646d6d242be3aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clips:
-  - {fileID: 1827226128182048838, guid: 7f441e0c910673f4ea34291dfd00b337, type: 3}
-  - {fileID: 1827226128182048838, guid: e3372eb54dc44a445bc981e5a894dc4a, type: 3}
-  - {fileID: 1827226128182048838, guid: c33a808654ada4246b3caaa9231e14a2, type: 3}
-  Speed: 1
-  BlendNormalizedTime: 0.2
-  length: 0
-  index: 0
-  ports: ffffffffffffffff
-  blend:
-    PrePort: 0
-    Port: 0
-    Time: 0
-    Duration: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,9 +204,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -312,6 +272,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &957421294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 134423259179243058, guid: ce871f6886b475a4d9980eb19f724cae, type: 3}
+  m_PrefabInstance: {fileID: 311384873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &957421297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957421294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b0d9da01f855947ac3d7cd52510016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000, guid: 8ed0dc8752616054db80c19124d48119, type: 2}
+  defaultState: blendTree
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -410,4 +389,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
-  - {fileID: 79733036}
+  - {fileID: 311384873}

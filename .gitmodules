@@ -28,3 +28,6 @@
 [submodule "Packages/TimelineView"]
 	path = Packages/TimelineView
 	url = https://github.com/RogueLiteStudio/Package.TimelineView.git
+[submodule "Packages/ActionEngine"]
+	path = Packages/ActionEngine
+	url = https://github.com/RogueLiteStudio/Package.ActionEngine.git

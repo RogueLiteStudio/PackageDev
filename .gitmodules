@@ -31,3 +31,6 @@
 [submodule "Packages/ActionEngine"]
 	path = Packages/ActionEngine
 	url = https://github.com/RogueLiteStudio/Package.ActionEngine.git
+[submodule "Packages/Aline"]
+	path = Packages/Aline
+	url = https://github.com/RogueLiteStudio/Package.Aline.git

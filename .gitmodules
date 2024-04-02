@@ -34,3 +34,6 @@
 [submodule "Packages/Aline"]
 	path = Packages/Aline
 	url = https://github.com/RogueLiteStudio/Package.Aline.git
+[submodule "Packages/Command"]
+	path = Packages/Command
+	url = https://github.com/RogueLiteStudio/Package.Command.git

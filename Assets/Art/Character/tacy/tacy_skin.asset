@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b700ca163e209644a8418edda9a3b9b9, type: 3}
+  m_Name: tacy_skin
+  m_EditorClassIdentifier: 
+  States:
+  - Name: attack_00
+    GUID: 7feeeb7d-4d09-493d-92d7-9a32096457a4
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 105073d4648d53046b6e573b98b9228c, type: 2}
+    Clips: []
+  - Name: attack_01
+    GUID: e16e5d3c-460d-4154-bba8-d0fd6225b2e4
+    Loop: 0
+    Animation: {fileID: 7400000, guid: e90e9188ab1bb5f45b18bfebaf12f86c, type: 2}
+    Clips: []
+  - Name: attack_02
+    GUID: 6dd1b8a7-96b0-44ae-aaec-e237b20b9149
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 5e198ddb9819b574e9ad9207a50d3225, type: 2}
+    Clips: []
+  - Name: attack_03
+    GUID: d4b3908e-98dc-4abe-84ea-a2f972fa8733
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 86a1fa10eb2c993498f28cfbb84ab183, type: 2}
+    Clips: []
+  - Name: attack_04
+    GUID: ab0942d4-3cb7-4ff9-b496-468ff352e47c
+    Loop: 0
+    Animation: {fileID: 7400000, guid: fb484882208158e4ea73dace32b4d776, type: 2}
+    Clips: []
+  - Name: behit_ahead_back
+    GUID: 0ae638df-24b0-40d6-af7a-b46f06fff62b
+    Loop: 0
+    Animation: {fileID: 7400000, guid: fa471757061458742bf42401d453c7c6, type: 2}
+    Clips: []
+  - Name: behit_ahead_front
+    GUID: cdb1b725-1d6b-46ca-8906-57144dab09b3
+    Loop: 0
+    Animation: {fileID: 7400000, guid: c22558a0845990141b5f2f7fe3ba464e, type: 2}
+    Clips: []
+  - Name: behit_ahead_turn
+    GUID: f70a8dd8-fba2-4747-bc91-111dc678603c
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 1eb59e901855f0e45b22ee79961435fa, type: 2}
+    Clips: []
+  - Name: behit_air
+    GUID: 31aa454f-a8cd-4b6f-b4d4-5f5fa48748db
+    Loop: 0
+    Animation: {fileID: 7400000, guid: c9e584a95e739d34ca7f2a77510a8abf, type: 2}
+    Clips: []
+  - Name: behit_back
+    GUID: 22116f3b-8e6d-427c-a7b2-e4fa3ae93e21
+    Loop: 0
+    Animation: {fileID: 7400000, guid: d52a7d93cc3027b4eba89338fd7233d0, type: 2}
+    Clips: []
+  - Name: behit_behind_back
+    GUID: d05ff63f-4eff-4fc7-b6a1-0b9971fb9b15
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 419c79b73e1ae004d90c443a57557da7, type: 2}
+    Clips: []
+  - Name: behit_behind_front
+    GUID: c856dbe7-15c4-42c4-98c9-249343cbcdfe
+    Loop: 0
+    Animation: {fileID: 7400000, guid: d8eee5ebf47606c41a895f3afa4ef277, type: 2}
+    Clips: []
+  - Name: behit_behind_turn
+    GUID: 2d51cf94-5767-4e91-a41e-63f07bbeccbd
+    Loop: 0
+    Animation: {fileID: 7400000, guid: c81c746e0feffae459c2561303d0c1de, type: 2}
+    Clips: []
+  - Name: behit_down
+    GUID: d3ffc254-e528-4f0a-85b5-4a7844b4946f
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 3c81e75eb8f55824daa7fe2624c76c3b, type: 2}
+    Clips: []
+  - Name: behit_front
+    GUID: 4669f826-5a09-4066-b188-5b9abc0d7bb6
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 673bf266e43b2714aa783144e55136c0, type: 2}
+    Clips: []
+  - Name: behit_lie
+    GUID: 1057fb0a-e490-4485-bcf1-71dc401eb907
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 58891af420196014f95e0d0f4f055624, type: 2}
+    Clips: []
+  - Name: behit_up
+    GUID: 9cd8d5f7-b503-4e06-8825-103cb578443d
+    Loop: 0
+    Animation: {fileID: 7400000, guid: c3216c42bb2c3e144b69ca2b89aff2ed, type: 2}
+    Clips: []
+  - Name: dead
+    GUID: d5d28471-b089-43f7-8e6a-8d9e5a5d317b
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 63d9c05e841d5194a91673e69fbe6c0f, type: 2}
+    Clips: []
+  - Name: dodge_b
+    GUID: 07280b9d-695e-4cb9-8078-586b8281703c
+    Loop: 0
+    Animation: {fileID: 7400000, guid: f8cf719635414e64bab010bd1c1efa48, type: 2}
+    Clips: []
+  - Name: dodge_f
+    GUID: 36c3cb4b-7202-4df7-89b0-6addbc871eaa
+    Loop: 0
+    Animation: {fileID: 7400000, guid: b2f8922e26b33e84298bcda2a927fe2a, type: 2}
+    Clips: []
+  - Name: get_up
+    GUID: f4f13139-2657-4c9e-9384-e2c7168bcc03
+    Loop: 0
+    Animation: {fileID: 7400000, guid: f3a6917d95a0d1645865ac56f3fdd6e7, type: 2}
+    Clips: []
+  - Name: idle
+    GUID: 6504940f-0eeb-4d50-a0e0-2734dacf4e21
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 87db1a06776464f4ea6665e4da6fcd9e, type: 2}
+    Clips: []
+  - Name: lie
+    GUID: 2d3167a4-ae30-4cb3-8fe8-54083b233f8b
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 22dff3f69da2ef444820e17906ca9016, type: 2}
+    Clips: []
+  - Name: run
+    GUID: 7b588f2b-4d68-4559-a699-0fa9b881d8d4
+    Loop: 0
+    Animation: {fileID: 7400000, guid: b7a940dfd1368ab40bd9082511f4d856, type: 2}
+    Clips: []
+  - Name: run_stop_l
+    GUID: cae0a146-6946-4126-9b42-2ba8ba3ef004
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 9a9173067c1d38044b692a0c892f7989, type: 2}
+    Clips: []
+  - Name: run_stop_r
+    GUID: 4e3547e0-00e5-4b46-8d40-a0335975b78b
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 0d202cc7004149a44957472b1ebe9bfa, type: 2}
+    Clips: []
+  - Name: run_turn_l
+    GUID: 3f209457-b6a2-4514-86a3-d95de768481c
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 0d9782e8a6cf5e24da5eee259e2c716c, type: 2}
+    Clips: []
+  - Name: run_turn_r
+    GUID: 88e41fa5-ad90-4db9-9261-8e006bd2c868
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 9da9dff1c22ed264486cf0779626537c, type: 2}
+    Clips: []
+  - Name: skill_01_attack_a
+    GUID: b5ef3805-aafc-477f-bbab-42a81f219cd3
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 219f787bb97a1d04399f363604674390, type: 2}
+    Clips: []
+  - Name: skill_01_attack_b
+    GUID: a613eedd-2052-401b-878f-2c870c047a2f
+    Loop: 0
+    Animation: {fileID: 7400000, guid: a24bae14056ade04e9563873531cdea4, type: 2}
+    Clips: []
+  - Name: skill_01_charge
+    GUID: f493912f-2501-48a1-8283-17ac065e9fa4
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 1b2662e5a82ed9347a46479487f168b3, type: 2}
+    Clips: []
+  - Name: skill_01_charge1
+    GUID: 45160428-5c27-4614-85cb-efb93d5b425e
+    Loop: 0
+    Animation: {fileID: 7400000, guid: eca611ee47b73d341888d1cb780024b7, type: 2}
+    Clips: []
+  - Name: skill_01_start
+    GUID: e6b0ddc0-d8fa-4fc6-8b0b-66cba7a567a8
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 2f6ab2b21205db141ab3cd970bc24ea2, type: 2}
+    Clips: []
+  - Name: skill_02
+    GUID: 581d7834-4a64-4aec-9b46-ed442ff3b52f
+    Loop: 0
+    Animation: {fileID: 7400000, guid: b332311d3e321a2449664b0aa9ef1e9e, type: 2}
+    Clips: []
+  - Name: skill_boost_01
+    GUID: 9fdaff60-f4c3-4b0d-9770-cc379fe86933
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 45645530c4269a541a17ad33256faad8, type: 2}
+    Clips: []
+  - Name: skill_boost_02
+    GUID: ecbcf34a-90b1-44b9-b36a-176d68725bb1
+    Loop: 0
+    Animation: {fileID: 7400000, guid: f2e02acce2ddf014e86f7516901a8735, type: 2}
+    Clips: []
+  - Name: start
+    GUID: 1208968a-f993-4df4-9e1d-9b9803465520
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 563ac1d42f08c124da83c80b4f5eb658, type: 2}
+    Clips: []
+  - Name: stun
+    GUID: ce46ca28-eca8-4789-8abd-fa1f41c27be8
+    Loop: 0
+    Animation: {fileID: 7400000, guid: b4e0f18372dfee8468ee970bcebc4c8f, type: 2}
+    Clips: []
+  - Name: walk
+    GUID: af5245bf-4449-457d-ab20-0d3881b1a7ee
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 93754b8d92cee9444a5749a18fc9f201, type: 2}
+    Clips: []
+  - Name: walk_turn_l
+    GUID: 202ec7ed-864c-4758-8aec-66138af9ee13
+    Loop: 0
+    Animation: {fileID: 7400000, guid: 4b0441da87fd1a14eaa8558485c781b5, type: 2}
+    Clips: []
+  - Name: walk_turn_r
+    GUID: 2fd5cdf0-d173-4840-9a22-aa4f6f537d94
+    Loop: 0
+    Animation: {fileID: 7400000, guid: ca1850130c3ff944cb07b8cd7f913bc9, type: 2}
+    Clips: []
+  BlendTree: []
+  Transition: []

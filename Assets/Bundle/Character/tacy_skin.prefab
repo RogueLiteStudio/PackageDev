@@ -135,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 762869279763565704}
   - component: {fileID: 6662632845806163698}
-  - component: {fileID: 1046816072367336124}
+  - component: {fileID: 6420215655323429183}
   m_Layer: 0
   m_Name: tacy_skin
   m_TagString: Untagged
@@ -187,7 +187,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1046816072367336124
+--- !u!114 &6420215655323429183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

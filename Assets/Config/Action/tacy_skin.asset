@@ -27,9 +27,9 @@ MonoBehaviour:
       Name: "\u7279\u6548"
       Comment: 
       jsonData:
-        Type: ActionEngine.ActionEditor.EntityEffectClip
+        Type: ActionEngine.ActionEditor.ViewEffectClip
         TypeGUID: 509988CF-3E12-4AF8-89FB-CDF59E488BDB
-        JsonDatas: '{"Data":{"ID":0,"StartFrame":0,"Length":0,"EffectResource":"","AttachNode":"","Offset":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}},"Rotation":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}}}}'
+        JsonDatas: '{"Data":{"ID":0,"StartFrame":0,"Length":0,"EffectID":0,"AttachNode":"","Offset":{"x":0.0,"y":0.0,"z":0.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"DeleteWhenSwitch":false,"DeDuplication":false,"NoneFollow":false,"DetachFrameIndex":2}}'
     - GUID: 63cdfcb4-fde6-4646-90f1-e60e1f82bbb4
       StartFrame: 0
       Length: 6

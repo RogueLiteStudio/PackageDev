@@ -39,7 +39,7 @@ MonoBehaviour:
       jsonData:
         Type: ActionEngine.ActionEditor.EntityHitBoxClip
         TypeGUID: 7B300671-E92A-4581-A9F8-8980D0206EA8
-        JsonDatas: '{"Data":{"ID":0,"StartFrame":0,"Length":0,"AttachNode":"","FollowNodeRotate":false,"Type":4,"KeyFrames":[{"FrameIndex":0,"Rotation":{"_serializedValue":0},"Offset":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}},"Size":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}}},{"FrameIndex":2,"Rotation":{"_serializedValue":0},"Offset":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}},"Size":{"x":{"_serializedValue":21474836480},"y":{"_serializedValue":0},"z":{"_serializedValue":0}}},{"FrameIndex":5,"Rotation":{"_serializedValue":0},"Offset":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}},"Size":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}}}],"TargeCampLimit":2,"ClearTargetFrames":[1,3]}}'
+        JsonDatas: '{"Data":{"ID":0,"StartFrame":0,"Length":0,"AttachNode":"","FollowNodeRotate":false,"Type":4,"KeyFrames":[{"FrameIndex":0,"Rotation":{"_rawVal":0},"Offset":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}},"Size":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}}},{"FrameIndex":2,"Rotation":{"_rawVal":0},"Offset":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}},"Size":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}}},{"FrameIndex":5,"Rotation":{"_rawVal":0},"Offset":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}},"Size":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}}}],"TargeCampLimit":2,"ClearTargetFrames":[1,3]}}'
     - GUID: 419441e0-f804-471c-880b-bd3de6880c98
       StartFrame: 1
       Length: 5
@@ -49,7 +49,7 @@ MonoBehaviour:
       jsonData:
         Type: ActionEngine.ActionEditor.EntityHitBoxClip
         TypeGUID: 7B300671-E92A-4581-A9F8-8980D0206EA8
-        JsonDatas: '{"Data":{"ID":0,"StartFrame":0,"Length":0,"AttachNode":"","FollowNodeRotate":false,"Type":0,"KeyFrames":[{"FrameIndex":0,"Rotation":{"_serializedValue":0},"Offset":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}},"Size":{"x":{"_serializedValue":0},"y":{"_serializedValue":0},"z":{"_serializedValue":0}}}],"TargeCampLimit":2,"ClearTargetFrames":[]}}'
+        JsonDatas: '{"Data":{"ID":0,"StartFrame":0,"Length":0,"AttachNode":"","FollowNodeRotate":false,"Type":0,"KeyFrames":[{"FrameIndex":0,"Rotation":{"_rawVal":0},"Offset":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}},"Size":{"x":{"_rawVal":0},"y":{"_rawVal":0},"z":{"_rawVal":0}}}],"TargeCampLimit":2,"ClearTargetFrames":[]}}'
   - GUID: c0667fb3-479c-466b-ba7c-e67389c2baa8
     Name: attack_01
     Description: 

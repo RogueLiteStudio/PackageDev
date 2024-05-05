@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c935dce3238889446ab744b2b8b18a00, type: 3}
-  m_Name: tacy_skin_action
+  m_Name: tacy_action
   m_EditorClassIdentifier: 
   Comment: 
   Groups:

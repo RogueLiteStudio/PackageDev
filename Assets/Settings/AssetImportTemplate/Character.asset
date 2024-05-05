@@ -15,7 +15,6 @@ MonoBehaviour:
   Fold: 0
   Enable: 1
   Comment: 
-  Actions: []
   DefaultBones: []
 --- !u!114 &-3793161104549874858
 MonoBehaviour:
@@ -85,6 +84,7 @@ MonoBehaviour:
   - {fileID: 7121561113142510037}
   - {fileID: -3698454884204609771}
   - {fileID: -6825452368071644383}
+  OutPutFolde: 0
 --- !u!114 &7121561113142510037
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -118,3 +118,4 @@ MonoBehaviour:
   Enable: 1
   Comment: 
   Suffix: 
+  CreateEntityAction: 0

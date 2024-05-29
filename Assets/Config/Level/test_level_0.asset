@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b12c59bbe65414f928e0fe1c318659, type: 3}
+  m_Name: test_level_0
+  m_EditorClassIdentifier: 
+  ScenePrefab: {fileID: 6298699586335670772, guid: 6706e72a0d12c68469a448151da17caf, type: 3}
+  Entries: []
+  Groups:
+  - GUID: 4c3c9af583dc9bb468cbc81d98598694
+    Name: Default
+  - GUID: b1d3dbd20578b0845a2e0d8b92ea750d
+    Name: New Group

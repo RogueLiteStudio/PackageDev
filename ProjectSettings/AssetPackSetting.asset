@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3bf5036a8395b34eae52c12c9768524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Packages: []
+  Packages:
+  - Name: Scene
+    PackType: 1
+    Path: D:/GitHub/PackageDev/Assets/Bundle/Scene
+    SearchPattern: '*.prefab'
+    SearchOption: 1
   DependencePackPolicies: []
   PackExportPath: StreamingAssets/bundle/
   BundleExternName: .ab

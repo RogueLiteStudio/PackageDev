@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScenePrefab: {fileID: 6298699586335670772, guid: 6706e72a0d12c68469a448151da17caf, type: 3}
   Entries:
-  - Position: {x: 0.56905925, y: 0, z: -0.9860662}
-    Rotation: 79.87055
-  - Position: {x: 2.246298, y: 0, z: 0.94220984}
-    Rotation: 79.87055
+  - Position: {x: 22.52083, y: 0, z: -0.9860662}
+    Rotation: 263.00885
+  - Position: {x: 24.19807, y: 0, z: 0.94220984}
+    Rotation: 263.00885
   Groups:
   - GUID: 4c3c9af583dc9bb468cbc81d98598694
     Name: Default

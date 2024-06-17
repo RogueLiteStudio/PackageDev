@@ -15,7 +15,7 @@ MonoBehaviour:
   Packages:
   - Name: Scene
     PackType: 1
-    Path: D:/GitHub/PackageDev/Assets/Bundle/Scene
+    Path: Assets/Bundle/Scene
     SearchPattern: '*.prefab'
     SearchOption: 1
   DependencePackPolicies: []
